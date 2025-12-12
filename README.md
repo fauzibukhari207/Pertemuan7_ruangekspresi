@@ -1,45 +1,43 @@
-<h1 align="center">🎨 Ruang Ekspresi</h1>
-
-<p align="center">
-  Proyek React + Vite + TailwindCSS untuk tugas <b>Pertemuan 7</b>.
-  <br />
-  Dibuat dengan desain bersih, responsif, dan modern.
-</p>
-
----
-
-## 🚀 Tech Stack
-
-<p align="left">
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
-  <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" /><img width="48" height="54" alt="gridicons_play" src="https://github.com/user-attachments/assets/c31f3b8c-f5ed-4832-a961-63fbf1692341" />
-
-</p>
-
----
-
-## 🔗 Demo
-Jika website sudah dideploy di Netlify/GitHub Pages, masukkan link di sini:
-
-**Live Demo:**  
-👉 (isi link-nya nanti)
-
----
-
-## 📥 Cara Install & Menjalankan Project
-
-### 1️⃣ Clone repository
-```bash
+Ruang Ekspresi – Website Program Kreativitas Mahasiswa
+Ruang Ekspresi adalah platform website yang dirancang untuk membantu mahasiswa mengembangkan potensi kreatif dan kolaboratif melalui berbagai kegiatan seperti ideation, creation, collaboration, dan mentoring.
+Website ini dibuat menggunakan React + Vite + Tailwind CSS.
+🚀 Cara Menjalankan Proyek di Local
+1️⃣ Clone Repository
 git clone https://github.com/fauzibukhari207/Pertemuan7_RuangEkspresi.git
+2️⃣ Masuk ke Folder Proyek
 cd Pertemuan7_RuangEkspresi
+3️⃣ Install Dependencies
+Pastikan sudah menginstall Node.js.
 npm install
+4️⃣ Jalankan Project
 npm run dev
-
-## tampilannya
-<img width="727" height="997" alt="Tangkapan Layar 2025-12-12 pukul 18 35 14" src="https://github.com/user-attachments/assets/b75f0729-3fa6-411f-be1e-aff50a2b47bc" />
-<img width="727" height="999" alt="Tangkapan Layar 2025-12-12 pukul 18 35 53" src="https://github.com/user-attachments/assets/53fe7469-3b74-4202-88c3-e6fc1fae5420" />
-<img width="896" height="1002" alt="Tangkapan Layar 2025-12-12 pukul 18 36 29" src="https://github.com/user-attachments/assets/b51c17bc-42cb-4886-93e8-ce330d274725" />
-<img width="891" height="1004" alt="Tangkapan Layar 2025-12-12 pukul 18 36 45" src="https://github.com/user-attachments/assets/6d15cf13-60f9-433f-9f6a-ab7f9c4d3b13" />
-
+Project akan berjalan di:
+http://localhost:5173
+🛠️ Tech Stack
+React.js
+Vite
+Tailwind CSS
+JavaScript
+Netlify (Deployment)
+📁 Struktur Folder
+src/
+│── assets/          # gambar & icon
+│── components/      # komponen halaman
+│── App.jsx          # root app
+│── main.jsx         # entry point
+│── index.css        # style + tailwind
+🌐 Deployment (Netlify)
+Cara deploy:
+Build project:
+npm run build
+Upload folder dist/ ke Netlify (drag & drop)
+Selesai ✨
+📌 Catatan Penting:
+Semua gambar harus ada di src/assets/
+dan dipanggil seperti:
+import heroImg from "../assets/herosection.png";
+👨‍💻 Author
+Muhammad Fauzi Bukhari
+Mahasiswa – Universitas Ahmad Dahlan
+📜 License
+Proyek ini dibuat untuk kebutuhan pembelajaran dan tugas mata kuliah.
